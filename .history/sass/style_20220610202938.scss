@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-align: none;
+  transition: all 0.6s ease;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+// header 
+

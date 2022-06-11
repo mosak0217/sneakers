@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Arial';
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-align: none;
+  transition: all 0.6s ease;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+li {
+  list-style: none;
+}
+
+.section_ttl {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #121212;
+  text-align: center;
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+
+
+// header 
+
+#header {
+  display: flex;
+  .header_logo {
+    width: 175px;
+    height: 40px;
+  }
+}
+
+
+// video
+
+
+// pickup
+
+
+
+// feature
+
+#feature {
+  .wrapper {
+    .item_content {
+      display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 424px 424px 424px;
+    gap: 26px 27px;
+    }
+    .item {
+      box-shadow: 2px 2px 4px;
+    }
+  }
+}
+
+
+
+// contact
+
+#contact {
+  .content {
+    w
+    display: flex;
+
+    .content_left {
+      width: 50%;
+    }
+    .content_right {
+      width: 50%;
+    }
+  }
+
+}
+
+
+
+// footer
+
+footer {
+  text-align: center;
+
+  .copy {
+    
+  }
+}
+
