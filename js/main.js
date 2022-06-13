@@ -11,9 +11,12 @@ $(function(){
     $('#header').removeClass('open');
   });
 
-  $('#navi a').on('click', function() {
+  $('#nav a').on('click', function() {
     $('#header').removeClass('open');
   });
+
+
+
 
   $('a[href^="#"]').click(function(){
     let href= $(this).attr("href");
@@ -27,6 +30,7 @@ $(function(){
 
 $('.slick_area').slick({
   infinite: true,
+  autoplay: true,
   slidesToShow: 3,
   slidesToScroll: 3,
   centerMode: true,
@@ -36,7 +40,7 @@ $('.slick_area').slick({
     {
       breakpoint: 768, 
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
       },
     },
     {

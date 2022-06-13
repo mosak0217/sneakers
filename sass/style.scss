@@ -40,7 +40,7 @@ li {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 60px;
+  padding: 0 16px;
 
 }
 
@@ -234,6 +234,7 @@ li {
 #feature {
   width: 100%;
   .wrapper {
+    padding-bottom: 60px;
     .item_content {
       display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -281,14 +282,14 @@ li {
     display: flex;
 
     .contact_left {
-      width: 43%;
+      width: 100%;
       p {
         padding-bottom: 30px;
         font-size: 1.4rem;
       }
     }
     .contact_right {
-      width: 46%;
+      width: 100%;
       padding-left: 12%;
     }
     dt {
@@ -337,7 +338,6 @@ footer {
 @media screen and (max-width: 984px) {
 
   .wrapper {
-    padding: 0 16px;
     padding-bottom: 80px;
   }
 
