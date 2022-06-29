@@ -76,3 +76,4 @@ $('.slick_area').slick({
 
 });
 
+
