@@ -25,6 +25,7 @@ $(function(){
     $("html, body").animate({scrollTop:position}, 600, "swing");
     return false;
   });
+  
 
 
 
