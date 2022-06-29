@@ -15,9 +15,6 @@ $(function(){
     $('#header').removeClass('open');
   });
 
-
-
-
   $('a[href^="#"]').click(function(){
     let href= $(this).attr("href");
     let target = $(href == "#" || href == "" ? 'html' : href);
@@ -25,7 +22,7 @@ $(function(){
     $("html, body").animate({scrollTop:position}, 600, "swing");
     return false;
   });
-  
+
 
 
 
