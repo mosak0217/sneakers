@@ -78,3 +78,4 @@ $('.slick_area').slick({
 
 
 
+
